@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* Movie Poster */
+.moviePic {
+  height: 400px;
+  width: 300px;
+  opacity: 0.9;
+  display: block;
+  margin: 40px auto;
+}
+
+/* Movie Description */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
